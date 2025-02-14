@@ -19,10 +19,10 @@ class ImageToVideoConverter:
     def __init__(self, master):
         self.master = master
         master.title("VisuaFlow")
-        master.geometry("512x384")
+        master.geometry("450x500")
         
         # 画像フォルダ選択
-        self.folder_label = tk.Label(master, text="画像フォルダ:")
+        self.folder_label = tk.Label(master, text="画像フォルダ")
         self.folder_label.pack(pady=10)
         
         self.folder_path = tk.StringVar()
@@ -33,7 +33,7 @@ class ImageToVideoConverter:
         self.browse_button.pack(pady=5)
         
         # 出力ファイル名
-        self.output_label = tk.Label(master, text="出力ファイル名:")
+        self.output_label = tk.Label(master, text="出力ファイル名")
         self.output_label.pack(pady=10)
         
         self.output_name = tk.StringVar(value="{day}-{hour}-{min}-{sec}")
@@ -41,7 +41,7 @@ class ImageToVideoConverter:
         self.output_entry.pack(pady=5)
         
         # 画像パターン
-        self.pattern_label = tk.Label(master, text="画像パターン:")
+        self.pattern_label = tk.Label(master, text="画像パターン")
         self.pattern_label.pack(pady=10)
         
         self.pattern_options = [
@@ -59,7 +59,7 @@ class ImageToVideoConverter:
         self.pattern_dropdown.pack(pady=5)
         
         # FPS
-        self.fps_label = tk.Label(master, text="フレームレート:")
+        self.fps_label = tk.Label(master, text="フレームレート")
         self.fps_label.pack(pady=10)
         
         self.fps = tk.IntVar(value=30)
@@ -192,7 +192,7 @@ class ImageToVideoConverter:
                 f.write("VideoWriter stopped at " + str(datetime.datetime.now()) + "\n")
 
             # 成功メッセージ
-            self.master.after(0, self.conversion_complete, "output/" + output_name + "を確認してください！！！")
+            self.master.after(0, self.conversion_complete, "できましたよ!!!!!\noutput/" + output_name + "を確認してください！！！")
 
         except Exception as e:
             # エラーメッセージ

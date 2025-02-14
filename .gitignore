@@ -22,6 +22,7 @@ dist/
 
 # ログファイル
 *.log
+log.txt
 
 # 一時ファイル
 *.tmp

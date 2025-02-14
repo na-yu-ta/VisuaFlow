@@ -1,9 +1,0 @@
-Log started at 2025-02-14 15:39:21.225079
-Conversion started at 2025-02-14 15:39:34.975695
-VideoWriter started at 2025-02-14 15:39:35.060434
-VideoWriter stopped at 2025-02-14 15:39:35.421978
-Conversion complete at 2025-02-14 15:39:36.714355
-Conversion started at 2025-02-14 15:39:39.364343
-VideoWriter started at 2025-02-14 15:39:39.442652
-VideoWriter stopped at 2025-02-14 15:39:39.780462
-Conversion complete at 2025-02-14 15:39:41.690806
