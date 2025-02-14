@@ -1,6 +1,6 @@
 [project]
 name = "visuaflow"
-version = "0.1.0"
+version = "1.0.0"
 description = "画像からビデオを作成するGUIアプリケーション"
 authors = [
     {name = "nayuta",email = "nayuta@nayuta.nayuta"}
