@@ -9,6 +9,8 @@ VisuaFlowは、簡単に画像からビデオを作成できるPythonベース�
 - 柔軟な画像パターンマッチング
 - 直感的なGUIインターフェース
 
+![sample_img](./sample.jpg)
+
 ## 動作環境
 - Python 3.13.2
 - Windows
